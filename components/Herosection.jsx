@@ -73,15 +73,15 @@ const DoctorBioData = () => {
     <section className="max-w-6xl mx-auto p-6 bg-white shadow-md rounded-lg mt-10">
       {/* <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8 text-indigo-700">Narayan Dental Clinic</h2> */}
       <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8 bg-gradient-to-r from-indigo-700 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-  Narayan Dental Clinic
-</h2>
+        Narayan Dental Clinic
+      </h2>
 
 
       <div className="flex flex-col-reverse md:flex-row items-center md:items-start">
 
         {/* Left Side - Biodata Section */}
         <div className="w-full md:w-1/2 px-6 mb-6 md:mb-0">
-          <h3 className="text-2xl font-bold mb-4"> <b style={{color:"red"}}> Dr. Rahul Kumar </b></h3>
+          <h3 className="text-2xl font-bold mb-4"> <b style={{ color: "red" }}> Dr. Rahul Kumar </b></h3>
 
           <ul className="space-y-4">
             <li>
@@ -90,7 +90,7 @@ const DoctorBioData = () => {
             </li>
             <li>
               <span className="font-semibold text-gray-700">📚 Qualification:</span>
-              <span className="text-gray-800 ml-2">BDS (Consultant Dental Surgeon)</span>
+              <span className="text-gray-800 ml-2">BDS (Dental Surgeon) Oral Dental Specialist.</span>
             </li>
             <li>
               <span className="font-semibold text-gray-700">📍 Clinic Address:</span>
@@ -98,7 +98,17 @@ const DoctorBioData = () => {
             </li>
             <li>
               <span className="font-semibold text-gray-700">📧 Email:</span>
-              <span className="text-gray-800 ml-2">happyrahul@gmail.com</span>
+              {/* <span className="text-gray-800 ml-2">happyrahul@gmail.com</span> */}
+              {/* <a href="email: drrahulkumar333@gmail.com" className="text-gray-800 ml-2">
+              drrahulkumar333@gmail.com
+              </a> */}
+              <a
+                href="mailto:drrahulkumar333@gmail.com?subject=Hello%20Rahul&body=Hi%20Rahul,%0A%0AHow%20are%20you?"
+                className="text-gray-800 ml-2 hover:underline"
+              >
+                drrahulkumar333@gmail.com
+              </a>
+
             </li>
             <li>
               <span className="font-semibold text-gray-700">📱 Contact:</span>
@@ -115,7 +125,7 @@ const DoctorBioData = () => {
             </li>
             <li>
               <span className="font-semibold text-gray-700">💉 Specialization:</span>
-              <span className="text-gray-800 ml-2">Dental Implants, Root Canal Treatment, Cosmetic Dentistry</span>
+              <span className="text-gray-800 ml-2">Dentist, Dental Surgeon, Cosmetic/Aesthetic Dentist </span>
             </li>
           </ul>
         </div>
@@ -129,15 +139,15 @@ const DoctorBioData = () => {
             height={400} // Keeping the image square for better alignment
             className="rounded-full shadow-lg"
           />
-              
+
         </div>
       </div>
-      <div className='ml-6 text-center'>     
-         <h1 className='text-2xl'><b >OPD Timing  </b></h1>
-      <p className='text-xl'> <b style={{color:"red"}}> Morning 9:00 AM to Evening 5:00 PM </b></p>
+      <div className='ml-6 text-center'>
+        <h1 className='text-2xl'><b >OPD Timing  </b></h1>
+        <p className='text-xl'> <b style={{ color: "red" }}> Morning 9:00 AM to Evening 5:00 PM </b></p>
       </div>
 
- 
+
     </section>
   );
 };
