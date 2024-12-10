@@ -60,7 +60,11 @@ const ContactPage = () => {
               <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-indigo-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 3h12a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2z" />
               </svg>
-              <span className="ml-3 text-gray-700">+91 8434672022</span>
+              {/* <span className="ml-3 text-gray-700">+91 8434672022</span> */}
+              <a href="tel:+918434672022" className="ml-3 text-gray-700">
+  +91 8434672022
+</a>
+
             </div>
             <div className="flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-indigo-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
