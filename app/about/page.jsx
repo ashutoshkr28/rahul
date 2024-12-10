@@ -18,13 +18,13 @@ const AboutDoctor = () => {
         {/* Doctor Bio */}
         <div className="space-y-6">
           <p className="text-lg text-gray-700">
-            Dr. Rahul Kumar is a skilled and compassionate dental specialist with over 2 years of experience in providing top-quality dental care. He believes in creating a comfortable and welcoming environment for all his patients.
+            <b style={{color:"red"}}> Dr. Rahul Kumar </b> is a skilled and compassionate dental specialist with over 2 years of experience in providing top-quality dental care. He believes in creating a comfortable and welcoming environment for all his patients.
           </p>
           <p className="text-lg text-gray-700">
-            Dr. Rahul earned his dental degree from XYZ University and completed his residency at ABC Hospital. He specializes in restorative and cosmetic dentistry, helping patients achieve both functional and aesthetic improvements to their smiles.
+          <b style={{color:"red"}}> Dr. Rahul Kumar </b> earned his dental degree from <b style={{color:"blue"}}> Lalit Narayan Mithila University </b> and completed his residency at <b style={{color:"blue"}}> Sarjug Dental College & Hospital</b>. He specializes in restorative and cosmetic dentistry, helping patients achieve both functional and aesthetic improvements to their smiles.
           </p>
           <p className="text-lg text-gray-700">
-            When not treating patients, Dr. Kumar enjoys reading the latest dental research, volunteering in his community, and spending time with his family.
+            When not treating patients, <b style={{color:"red"}}> Dr.  Kumar </b> enjoys reading the latest dental research, volunteering in his community, and spending time with his family.
           </p>
 
           <div className="flex items-center space-x-4">

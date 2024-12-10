@@ -103,6 +103,7 @@
 
 'use client'
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -119,7 +120,8 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-xl font-bold">
-              Narayan Dental Clinic
+              {/* <image></image> */}
+              <Image src={"/images/drlogo.png"} width={50} height={50}></Image>
             </Link>
           </div>
 
