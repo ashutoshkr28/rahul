@@ -70,7 +70,7 @@ const ContactPage = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-indigo-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 11h18m-7 4h7m-7 4h7m-7 4h7" />
                             </svg>
-                            <span className="ml-3 text-gray-700">happyrahul@gmail.com</span>
+                            <span className="ml-3 text-gray-700">drrahulkumar333@gmail.com</span>
                         </div>
                         <div className="flex items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-indigo-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
