@@ -1,6 +1,6 @@
 // "use client"
 
-const { default: Image } = require("next/image")
+// const { default: Image } = require("next/image")
 
 // import { useState } from 'react';
 // import Image from 'next/image';
@@ -473,38 +473,38 @@ const { default: Image } = require("next/image")
 
 // export default PatientGallery;
 
-"use client"
-import db from "@/app/db/gallery.json"
-import { useState } from "react"
+// "use client"
+// import db from "@/app/db/gallery.json"
+// import { useState } from "react"
 
-const Gallery = () => {
+// const Gallery = () => {
 
-  const [selectedImg, setSelectedImg] = useState<number>(0)
+//   const [selectedImg, setSelectedImg] = useState<number>(0)
 
 
-  return(
-    <>
-    <div className="flex flex-wrap items-center justify-center mt-10">
-      {
-        db.gallery.map((loc: gallery , i: number) =>{
-          return(
+//   return(
+//     <>
+//     <div className="flex flex-wrap items-center justify-center mt-10">
+//       {
+//         db.gallery.map((loc: gallery , i: number) =>{
+//           return(
 
-            <a href="" key={i} className="w-1/5 cursor-pointer hover:scale-110 transition-all ease-linear">
-            <Image src={`/gallery/${loc.img}`} alt={loc.location} width={300} height={200} className="w-full h-64 object-cover"/>
-          </a>
+//             <a href="" key={i} className="w-1/5 cursor-pointer hover:scale-110 transition-all ease-linear">
+//             <Image src={`/gallery/${loc.img}`} alt={loc.location} width={300} height={200} className="w-full h-64 object-cover"/>
+//           </a>
 
-          )
-        } )
-      }
+//           )
+//         } )
+//       }
     
-    </div>
+//     </div>
 
-    <div className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-85 z-50 flex justify-between">
-      <a href=""></a>
-      <div>
-        <Image src={`/gallery/${db.gallery[selectedImg].img}`} alt={db.gallery[selectedImg].location} width={650} height={500}/>
-      </div>
-    </div>
-    </>
-  )
-}
+//     <div className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-85 z-50 flex justify-between">
+//       <a href=""></a>
+//       <div>
+//         <Image src={`/gallery/${db.gallery[selectedImg].img}`} alt={db.gallery[selectedImg].location} width={650} height={500}/>
+//       </div>
+//     </div>
+//     </>
+//   )
+// }

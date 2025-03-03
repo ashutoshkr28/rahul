@@ -1,6 +1,6 @@
-class Gallery {
-    constructor() {
-        this.img = '';
-        this.location = '';
-    }
-}
+// class Gallery {
+//     constructor() {
+//         this.img = '';
+//         this.location = '';
+//     }
+// }
